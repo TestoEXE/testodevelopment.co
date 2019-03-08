@@ -1,0 +1,52 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.54;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    padding: 15px;
+}
+
+/* images */
+img {
+    max-width: 100%;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+h1,h2,h3 {
+    font-weight: 400;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #447490;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
