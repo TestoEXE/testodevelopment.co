@@ -1,0 +1,54 @@
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #444;
+  font-family: 'Motiva Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.74;
+}
+
+@font-face {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/motiva-sans-regular.woff2') format('woff2'), url('../fonts/motiva-sans-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/motiva-sans-bold.woff2') format('woff2'), url('../fonts/motiva-sans-bold.woff') format('woff');
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+a {
+  color: #39a6de;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+}
