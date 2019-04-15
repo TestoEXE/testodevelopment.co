@@ -1,0 +1,52 @@
+html {
+  line-height: 1.54;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+@font-face {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/motiva-sans-regular.woff') format('woff'), url('../font/motiva-sans-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../font/motiva-sans-bold.woff') format('woff'), url('../font/motiva-sans-bold.woff2') format('woff2');
+}
+
+body {
+  font-family: 'Motiva Sans';
+  font-style: normal;
+  font-size: 18px;
+  color: #333;
+}
+
+.lead {
+  color: #b3b3b3;
+}
+
+a {
+  color: #39a6de;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+}
